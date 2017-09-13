@@ -1,0 +1,1 @@
+execute -f 'cmd /c powershell -Command Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters"; SMB1 -Type DWORD -Value 0 -Force; Taskkill /f /im mssecsvc.exe; Remove-item c:\windows\mssecsvc.exe -force; Remove-item c:\windows\tasksche.exe -force' 

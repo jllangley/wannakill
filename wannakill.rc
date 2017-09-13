@@ -1,0 +1,2 @@
+load powershell
+powershell_execute 'Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" SMB1 -Type DWORD -Value 0 -Force; Taskkill /f /im mssecsvc*; Remove-item c:\windows\mssecsvc* -force; Remove-item c:\windows\tasksche* -force'
