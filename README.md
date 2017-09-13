@@ -1,5 +1,5 @@
 # wannakill
-This script was designed to take down unmanaged, unpatched systems on the network that are spreading the WannaCry worm.
+This script was designed to stop the spread of wannacry on infected systems across the network.
 The goal was to not only remove the wannacry infection but also leave the device in a non-vulnerable state.
 
 # What it is:
