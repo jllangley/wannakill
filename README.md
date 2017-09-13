@@ -4,7 +4,7 @@ The goal was to not only remove the wannacry infection but also leave the device
 
 # What it is:
 
-A Metasploit resource script desinged to 
+A Metasploit resource script designed to 
 
 kill wannacry task mssecsvc.exe
 
