@@ -43,7 +43,7 @@ Please do not use this against computer that does not belong to you.
 
 # How can this be better?:
 
-I tried using Autorunscript to have the script run automatically but it doesnt seem to work correctly.
+Wannakill.rb - post module, work in progress....
 
 Automating set rhost x.x.x.x using rc files works as well with a little VIM magic
 
